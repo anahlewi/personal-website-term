@@ -8,6 +8,8 @@ var mosaicLink="https://editor.p5js.org/anahlewi/sketches/iODvPEM0j";
 var colorGridLink="https://editor.p5js.org/anahlewi/sketches/aftCPJkJI";
 var audioVisualizerLink="https://editor.p5js.org/anahlewi/sketches/NQjHJ4xQD";
 var tenPrintLink="https://editor.p5js.org/anahlewi/sketches/-UWdZ-lIF";
+var digitalMolasLink="https://anahlewi.github.io/digital-molas/";
+
 
 const banner = "<pre class='banner'>" + 
 "                           888            888                        d8b\n"+
@@ -43,7 +45,7 @@ const socialMediaDescription= `<p class="command"> Follow me on <a class="link" 
                                <p class="command"> Follow me on <a class="link" target="_blank" href=${tiktok}>Tiktok</a> </p>\n
                                <p class="command"> Follow me on <a class="link" target="_blank" href=${linkedIn}>LinkedIn</a> </p>\n`;
 
-const youtubeDescripton = `<p> Check me out my Youtube Channel <a class="link" target="_blank" href=${youtube}>Becoming Anah</a>.</p> <p>I am a modern day
+const youtubeDescripton = `<p class="command"> Check me out my Youtube Channel <a class="link" target="_blank" href=${youtube}>Becoming Anah</a>.</p> <p class="command">I am a modern day
                             herstorian mostly passionate about documenting her life and outfits </p>`;
 
 const projectsDescription = `
@@ -51,7 +53,8 @@ const projectsDescription = `
                 <p><a class="link" target="_blank" href=${mosaicLink}>mosaic potrait</></p>
                 <p><a class="link" target="_blank" href=${colorGridLink}>color grid</></p>
                 <p><a class="link" target="_blank" href=${audioVisualizerLink}>audio visualizer</></p>
-                <p><a class="link" target="_blank" href=${tenPrintLink}>10 print</></p>`;
+                <p><a class="link" target="_blank" href=${tenPrintLink}>10 print</></p>
+                <p><a class="link" target="_blank" href=${digitalMolasLink}>Digital Molass</></p>`;
 
 const emailDescription = `<p class="command">email me at <a class="link" target="_blank" href="mailto:anahlewi@gmail.com">
                             anahlewi@gmail.com</a></p>`;
