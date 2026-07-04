@@ -1,7 +1,7 @@
 {
   "name": "personal-website-term",
   "version": "0.1.0",
-  "homepage": "https://anahlewi.github.io/personal-website-term/",
+  "homepage": "https://anahlewi.github.io/anahesty-terminal/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

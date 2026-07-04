@@ -1,5 +1,5 @@
 import './App.css';
-import { useState, useRef, useEffect, useLayoutEffect, useMemo, Component } from 'react';
+import { useState, useRef, useEffect, useLayoutEffect } from 'react';
 import parse from 'html-react-parser';
 import { commandLogic } from './commandLogic';
 
