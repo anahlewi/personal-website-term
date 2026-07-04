@@ -1,65 +1,23 @@
 
-var instagram = "https://www.instagram.com/anahlewi/";
-var tiktok = "https://www.tiktok.com/@anahlewi?lang=en";
-var linkedIn="https://www.linkedin.com/in/anahlewi/";
-var youtube="https://www.youtube.com/@BecomingAnah";
-
-var mosaicLink="https://editor.p5js.org/anahlewi/sketches/iODvPEM0j";
-var colorGridLink="https://editor.p5js.org/anahlewi/sketches/aftCPJkJI";
-var audioVisualizerLink="https://editor.p5js.org/anahlewi/sketches/NQjHJ4xQD";
-var tenPrintLink="https://editor.p5js.org/anahlewi/sketches/-UWdZ-lIF";
-
 const banner = "<pre class='banner'>" +
-" ▄▄▄▄   ▄▄▄    ▄▄▄   ▄▄▄▄   ▄▄▄   ▄▄▄  ▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄ ▄▄▄   ▄▄▄    ▄▄▄▄▄▄▄   ▄▄▄▄▄   ▄▄▄▄▄▄▄   ▄▄▄    ▄▄▄  ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄  \n" +
-"▄██▀▀██▄ ████▄  ███ ▄██▀▀██▄ ███   ███ ███▀▀▀▀▀ █████▀▀▀ ▀▀▀███▀▀▀ ███   ███   ███▀▀▀▀▀ ▄███████▄ ███▀▀███▄ ████▄  ███ ███▀▀▀▀▀ ███▀▀███▄ \n" +
-"███  ███ ███▀██▄███ ███  ███ █████████ ███▄▄     ▀████▄     ███    ▀███▄███▀   ███      ███   ███ ███▄▄███▀ ███▀██▄███ ███▄▄    ███▄▄███▀ \n" +
-"███▀▀███ ███  ▀████ ███▀▀███ ███▀▀▀███ ███         ▀████    ███      ▀███▀     ███      ███▄▄▄███ ███▀▀██▄  ███  ▀████ ███      ███▀▀██▄  \n" +
-"███  ███ ███    ███ ███  ███ ███   ███ ▀███████ ███████▀    ███       ███      ▀███████  ▀█████▀  ███  ▀███ ███    ███ ▀███████ ███  ▀███\n" +
-"</pre>";
+  "  ▄▄▄▄   ▄▄▄    ▄▄▄   ▄▄▄▄   ▄▄▄   ▄▄▄  ▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄ ▄▄▄   ▄▄▄    ▄▄▄▄▄▄▄   ▄▄▄▄▄   ▄▄▄▄▄▄▄   ▄▄▄    ▄▄▄  ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄\n"+
+  "▄██▀▀██▄ ████▄  ███ ▄██▀▀██▄ ███   ███ ███▀▀▀▀▀ █████▀▀▀ ▀▀▀███▀▀▀ ███   ███   ███▀▀▀▀▀ ▄███████▄ ███▀▀███▄ ████▄  ███ ███▀▀▀▀▀ ███▀▀███▄\n"+
+  "███  ███ ███▀██▄███ ███  ███ █████████ ███▄▄     ▀████▄     ███    ▀███▄███▀   ███      ███   ███ ███▄▄███▀ ███▀██▄███ ███▄▄    ███▄▄███▀\n"+
+  "███▀▀███ ███  ▀████ ███▀▀███ ███▀▀▀███ ███         ▀████    ███      ▀███▀     ███      ███▄▄▄███ ███▀▀██▄  ███  ▀████ ███      ███▀▀██▄\n"+
+  "███  ███ ███    ███ ███  ███ ███   ███ ▀███████ ███████▀    ███       ███      ▀███████  ▀█████▀  ███  ▀███ ███    ███ ▀███████ ███  ▀███\n"+
+'</pre>';
 
-const helpDescription  =
-    '<p class="command">whoisanah      --about me<p>\n'+ 
-    '<p class="command">socials    --displays social media<p>\n'+
-    '<p class="command">projects       --view my recent coding projects<p>\n'+
-    '<p class="command">help          --see list of commands<p>\n'+
-    '<p class="command">email          --email address<p>\n'+
-    '<p class="command">youtube          --view my latest youtube video<p>\n'+
-    '<p class="command">banner          --see the logo for my website<p>\n'+
-    '<p class="command">clear         --clear terminal<p>\n'+
-    '<p class="command">history         --view command history<p>\n';
-    
-const aboutMeDescription  = `<p class='command' style="text-wrap: inherit"> Hiiiii ☺️ my name is Anah! 
- I am 26 years old, born and raised in Brooklyn, NY. I am currently a software engineer/creative coder, however 
- in my free time I like to keep busy with a slew of things. My friends and family often use the word
- restless to desribe me, but I like to think of myself as someone who is active. I am what you would call a generalist, my many interests 
- inspire me and have shaped me into the person I am today. If you are reading this thank you for being here, hope you enjoy my
- personal website.
-</p>`;
-
-const socialMediaDescription= `<p class="command"> Follow me on <a class="link" target="_blank" href=${instagram}>Instagram</a> </p>\n
-                               <p class="command"> Follow me on <a class="link" target="_blank" href=${tiktok}>Tiktok</a> </p>\n
-                               <p class="command"> Follow me on <a class="link" target="_blank" href=${linkedIn}>LinkedIn</a> </p>\n`;
-
-const youtubeDescripton = `<p> Check me out my Youtube Channel <a class="link" target="_blank" href=${youtube}>Becoming Anah</a>.</p> <p>I am a modern day
-                            herstorian mostly passionate about documenting her life and outfits </p>`;
-
-const projectsDescription = `
-                <h4>p5 projects</h4>
-                <p><a class="link" target="_blank" href=${mosaicLink}>mosaic potrait</></p>
-                <p><a class="link" target="_blank" href=${colorGridLink}>color grid</></p>
-                <p><a class="link" target="_blank" href=${audioVisualizerLink}>audio visualizer</></p>
-                <p><a class="link" target="_blank" href=${tenPrintLink}>10 print</></p>`;
-
-const emailDescription = `<p class="command">email me at <a class="link" target="_blank" href="mailto:anahlewi@gmail.com">
-                            anahlewi@gmail.com</a></p>`;
+const helpDescription =
+  '<p class="command">fortune       --get a fortune cookie message<p>\n' +
+  '<p class="command">advice        --get a random piece of advice<p>\n' +
+  '<p class="command">badadvice     --get a random piece of bad advice<p>\n' +
+  '<p class="command">howtouse      --how to use this terminal<p>\n' +
+  '<p class="command">banner        --see the site logo<p>\n' +
+  '<p class="command">clear         --clear terminal<p>\n' +
+  '<p class="command">history       --view command history<p>\n' +
+  '<p class="command">help          --see list of commands<p>\n';
 
 export const listOfCommands = {
-    "help": helpDescription,
-    "whoisanah": aboutMeDescription,
-    "socials": socialMediaDescription,
-    "youtube":youtubeDescripton,
-    "projects": projectsDescription,
-    "email":emailDescription,
-    "banner": banner
+  "help": helpDescription,
+  "banner": banner
 }
-
